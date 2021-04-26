@@ -1,23 +1,25 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Scanner;
 
 public class MySweetProgram {
 
 	public static void main(String[] args) { 
-		System.out.println("Enter your name");
 		
-		Scanner in = new Scanner(System.in);
-		//String s = in.nextLine();
+		LinkedList<String> names = new LinkedList<String>();
+		names.push("Caleb");
+		names.push("Sue");
+		names.push("Sally");
+		
+		System.out.println(names.pop());
+		System.out.println(names.removeFirst());
+		System.out.println(names.remove());
 		
 		
-		int i = 0; //initialization
-		
-		do {
-			System.out.println("i is:" + i);
-			i++; 
-		} while (false);
-	
-			
-		
-		in.close();
 	}
+	
 }
