@@ -1,28 +1,20 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Scanner;
-
 public class MySweetProgram {
 
 	public static void main(String[] args) { 
-		LinkedList<String> names = new LinkedList<String>();
-		names.push("Caleb");
-		names.push("Sue");
-		names.push("Sally");
+		int[][] data = {
+				{4, 6, 3, 10},
+				{4, 2, 40, 1, 5, 3, 2, 30},
+				{5, 34, 1, 43}
+		};
 		
-		ListIterator<String> it = names.listIterator();
-		it.next();
-		it.next();
-		it.add("Susan");
-
-		for(String s: names) {
-			System.out.println(s);
+		//data[1][2] = 49; change value of an array
+		//System.out.println(data [1] [2]); access a particular element of an array
+		//iterate through a 2d array
+		for(int i = 0; i < data.length; i++) { //iterate rows
+			for (int k = 0; k < data[i].length; k++) { //iterate columns
+				System.out.print(data[i][k] + " ");
+			}
+			System.out.println();
 		}
 	}
 	
