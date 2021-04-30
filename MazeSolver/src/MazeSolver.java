@@ -8,6 +8,7 @@ public class MazeSolver {
 			{0, 0, 0, 1}
 	};
 	
+	
 	// 0 = wall
 	// 1 = path
 	// 2 = destination
