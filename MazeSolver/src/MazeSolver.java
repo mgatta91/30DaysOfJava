@@ -68,7 +68,7 @@ public class MazeSolver {
 			mazes.add(m);
 		}
 		in.close();
-		
+		 
 		return mazes;
 		
 	}
