@@ -62,8 +62,8 @@ public class MazeSolver {
 			}
 			
 			m.start = new Position(Integer.parseInt(in.nextLine()), Integer.parseInt(in.nextLine()));
-			
-			in.nextLine(); //toss the extra space
+			//toss the extra space
+			in.nextLine(); 
 			
 			mazes.add(m);
 		}
