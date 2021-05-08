@@ -71,6 +71,7 @@ public class MazeSolver {
 		 
 		return mazes;
 		
+		
 	}
 
 	private static boolean solveMaze(Maze m) {
