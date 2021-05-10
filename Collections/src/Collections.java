@@ -3,6 +3,7 @@ import java.util.HashSet;
 public class Collections {
 
 	public static void main(String[] args) {
+	
 		Person p = new Person("email@email.com", "Curry");
 		Position pos1 = new Position(10,10);
 		p.position = pos1;

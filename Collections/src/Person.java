@@ -15,7 +15,7 @@ public class Person {
 		// need to list all properties which hashCode will compare within parenthesis
 		return Objects.hash(email, ln, position);
 	}
-	
+
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
