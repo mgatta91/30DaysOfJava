@@ -6,7 +6,7 @@ public class Position {
 		this.x = x;
 		this.y = y;
 	}
-
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
