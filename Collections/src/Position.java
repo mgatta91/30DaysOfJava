@@ -6,7 +6,7 @@ public class Position {
 		this.x = x;
 		this.y = y;
 	}
-	
+	//need to add this because class "Position" is a property of class "Person"
 	@Override
 	public int hashCode() {
 		final int prime = 31;

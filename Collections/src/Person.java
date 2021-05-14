@@ -1,15 +1,27 @@
 import java.util.Objects;
 
 public class Person {
+	
+	// properties of class "Person"
 	String email;
 	String ln;
 	Position position;
 	
+	// constructor used to assign properties to class "Person"
 	Person(String email, String ln) {
+		
+		// lets program know the properties are being used as part of the constructor
 		this.email = email;
 		this.ln = ln;
 	}
-	// to generate this code - right click -> source -> generate hashCode() and equals ()
+	
+	// default constructor - used to allow class "Pair" to be a subclass of class "person"
+	Person(){
+		
+	}
+	
+	// to generate OVERRIDE - right click -> source -> generate hashCode() and equals ()
+	// used this code for hash, looks at code based on the value of the properties instead of the memory address
 	@Override
 	public int hashCode() {
 		// need to list all properties which hashCode will compare within parenthesis
